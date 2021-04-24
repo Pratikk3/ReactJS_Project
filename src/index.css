@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+.logButton{
+}
+
+.loginButton{
+  border: none;
+  flex: 0.5;
+  background: none;
+}
+
+.loginButton:active{
+  border: none;
+  flex: 0.5;
+  background: black;
+}
+
+.header{
+  background-color: #222;
+  height: 36px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 32px;
+}
+
+.form{
+  align-content: center,;
+  align-self: center
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% {  transform: rotateY(
+    360deg
+    );; }
+}
+
+.logo {
+    height: 35px;
+    background-color: '#ff7f7f';
+    animation:spin 8s linear infinite;
+}
